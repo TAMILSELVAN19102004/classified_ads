@@ -1,0 +1,16 @@
+.App3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-list3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.App3 h1 {
+    background-color: black;
+    color: #ff9900;
+}

@@ -1,0 +1,17 @@
+
+.App7 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  .App7 h1{
+    background-color:black;
+    color: #ff9900;
+  }
+  

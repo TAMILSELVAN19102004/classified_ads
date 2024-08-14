@@ -1,0 +1,53 @@
+.card4 {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    height: auto;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card-image4 {
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+}
+
+.ad-label4 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: yellow;
+    color: black;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.card-details4 {
+    padding: 16px;
+}
+
+.card-title4 {
+    margin: 0 0 8px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.card-price4 {
+    margin: 0 0 4px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+
+.card-location4,
+.card-date4 {
+    margin: 0 0 4px;
+    color: #555;
+    text-align: center;
+}

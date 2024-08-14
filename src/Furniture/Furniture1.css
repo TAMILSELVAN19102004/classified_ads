@@ -1,0 +1,16 @@
+.App4 {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-list4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.App4 h1 {
+    background-color: black;
+    color: #ff9900;
+}

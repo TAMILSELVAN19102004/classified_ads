@@ -1,0 +1,109 @@
+.body-new {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1761f5;
+ 
+  color: #333;
+}
+
+.main-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 180vh; 
+}
+
+.form-new {
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+  
+}
+
+.form-new h2 {
+  margin-bottom: 20px;
+  color: #FF9900;
+  text-align: center;
+}
+
+.form-new .form-group-new {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-new .form-group-new label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-new .form-group-new select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.form-new .form-group-new input,
+.form-new .form-group-new textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.form-new .form-group-new input:focus,
+.form-new .form-group-new select:focus,
+.form-new .form-group-new textarea:focus {
+  border-color: #FF9900;
+  outline: none;
+}
+
+.form-new .form-group-new textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.form-new .form-group-new .file-input-new {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-new .form-group-new .file-input-new label {
+  background-color: #FF9900;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-new .form-group-new .file-input-new input[type="file"] {
+  display: none;
+}
+
+.form-new button {
+  background-color: #FF9900;
+  color: black;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+}
+
+.form-new button:hover {
+  background-color: #ff4d00;
+}

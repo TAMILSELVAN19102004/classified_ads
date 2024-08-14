@@ -1,0 +1,16 @@
+.App5 {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-list5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.App5 h1 {
+    background-color: black;
+    color: #ff9900;
+}
